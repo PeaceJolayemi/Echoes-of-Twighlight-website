@@ -94,6 +94,8 @@ Demonstrated through:
 2. **Debugging form label association** - When my labels weren't working properly, I asked ChatGPT why, and learned about the importance of matching `for` and `id` attributes.
 
 3. **Box model clarification** - Asked for examples of when to use margin vs padding to better understand spacing concepts.
+   
+4. **Arranging README.md**  - Gave my idea and layout and it refined it and put it into this structure. 
 
 ### Where AI Helped in Code:
 ```html
@@ -150,4 +152,4 @@ Tested in:
 ---
 
 **GitHub Repository:** (https://github.com/PeaceJolayemi/Echoes-of-Twighlight-website)
-**Live Site:** [Link to be added before submission]
+**Live Site:** (https://peacejolayemi.github.io/Echoes-of-Twighlight-website/)
