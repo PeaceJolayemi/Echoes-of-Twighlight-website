@@ -1,0 +1,139 @@
+/* Box model reset - ensures consistent sizing across all elements */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: radial-gradient(circle at top, #1a0b3d, #050812);
+  color: #dcd7ff;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+}
+
+/* Navigation - uses Flexbox for horizontal layout */
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1.5rem 1rem;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+nav a {
+  color: #dcd7ff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  color: #8b5cf6;
+  background: rgba(139, 92, 246, 0.1);
+}
+
+/* Hero section - demonstrates padding and margin */
+.hero {
+  text-align: center;
+  padding: 5rem 2rem;
+  margin-bottom: 3rem;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #c4b5fd;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Video placeholder styling */
+.video-placeholder {
+  background: rgba(139, 92, 246, 0.1);
+  border: 2px dashed #8b5cf6;
+  border-radius: 12px;
+  padding: 4rem 2rem;
+  margin: 2rem auto;
+  max-width: 800px;
+}
+
+.video-placeholder p {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.video-note {
+  font-size: 0.9rem;
+  color: #a78bfa;
+  margin-top: 0.5rem;
+}
+
+/* Button styling with intentional padding and margin */
+button {
+  background: #8b5cf6;
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 2rem;
+}
+
+/* Intentional glow effect to draw attention without aggressive marketing */
+.glow:hover {
+  box-shadow: 0 0 20px #8b5cf6;
+  transform: translateY(-4px);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+/* I used CSS Grid for the features section - 3 equal columns */
+.features {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  padding: 3rem;
+  margin: 2rem 0;
+  text-align: center;
+}
+
+/* Card demonstrates box model: padding, margin, border-radius */
+.card {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 2rem;
+  margin: 0.5rem;
+  border-radius: 12px;
+  border: 1px solid rgba(139, 92, 246, 0.2);
+}
+
+.card h3 {
+  margin-bottom: 0.5rem;
+  color: #c4b5fd;
+}
+
+.card p {
+  font-size: 0.9rem;
+  color: #a78bfa;
+}
+
+/* Footer styling */
+footer {
+  text-align: center;
+  padding: 2rem;
+  margin-top: 4rem;
+  background: rgba(0, 0, 0, 0.3);
+  border-top: 1px solid rgba(139, 92, 246, 0.2);
+}
+
+footer p {
+  color: #a78bfa;
+  font-size: 0.9rem;
+}
