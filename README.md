@@ -102,12 +102,11 @@ Demonstrated through:
 This comment appears in `index.html` where the Grid layout is implemented.
 
 ### What I Wrote Myself:
-- All HTML structure and content (100%)
-- All CSS styling and layout decisions (100%)
-- Design choices and visual hierarchy (100%)
-- Color scheme and branding (100%)
+- All HTML structure and content
+- All CSS styling and layout decisions
+- Design choices and visual hierarchy
+- Color scheme and branding 
 
-AI was used **only for learning concepts**, not for generating code. I wrote every line of code myself after understanding the concepts.
 
 ## Reflection & Improvements from Assignment 1
 
@@ -135,7 +134,6 @@ AI was used **only for learning concepts**, not for generating code. I wrote eve
 
 ## Future Improvements
 If I had more time, I would:
-- Add actual gameplay video footage
 - Include more detailed story information based on user feedback
 - Add character profile cards with images
 - Implement responsive design with media queries for mobile devices
