@@ -149,5 +149,5 @@ Tested in:
 
 ---
 
-**GitHub Repository:** [Link to be added before submission]  
+**GitHub Repository:** (https://github.com/PeaceJolayemi/Echoes-of-Twighlight-website)
 **Live Site:** [Link to be added before submission]
